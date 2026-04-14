@@ -1,8 +1,4 @@
 
-DROP SCHEMA IF EXISTS health_schema CASCADE;
-
-CREATE SCHEMA health_schema;
-SET search_path TO health_schema;
 
 CREATE TABLE doctor (
     doctor_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
